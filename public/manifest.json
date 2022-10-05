@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Solid Chrome Extension",
+  "version": "0.0.1",
+  "description": "SolidJS + Vite + ManifestV3",
+  "action": {
+    "default_popup": "src/pages/popup/index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/css/*.css",
+        "assets/img/*"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ]
+}
